@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: . # Path to the React app folder
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000" # Map host:container ports
+    volumes:
+      - .:/app # Sync local changes to container
+    environment:
+      - NODE_ENV=development # Ensures React runs in dev mode

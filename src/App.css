@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -32,7 +36,21 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.resizable-card {
+  resize: both;
+  overflow: auto;
+  min-width: 100px;
+  min-width: 800px;
+  /* Minimum width to prevent shrinking too small */
+  min-height: 400px;
+  /* Minimum height */
+  /* Prevent overflow on small screens */
+  max-height: 80vh;
 }
