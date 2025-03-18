@@ -6,14 +6,6 @@ A simple Todo application built with React, featuring drag-and-drop functionalit
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Running the App](#running-the-app)
-- [Running Tests](#running-tests)
-- [Development](#development)
-- [Docker Setup](#docker-setup)
-- [Setup Docker After Cloning](#setup-docker-after-cloning)
-- [Known Issues and Fixes](#known-issues-and-fixes)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Add, toggle, and reorder todos with drag-and-drop.
